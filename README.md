@@ -17,5 +17,63 @@ cnpm install vue-cli -g
 <pre>
 在硬盘上找一个文件夹放工程，在终端中进入该目录：cd 路径
 根据模板创建项目：vue init webpack-simple 工程名字<工程名字不能用中文>
+之后会有一系列的项目选填：? Project name vue1.0
+                        ? Project description A Vue.js project
+                        ? Author hanpanpan
+                        ? License MIT
+                        ? Use sass? (y/N)
+</pre>
+## 安装依赖
+<pre>
+cd 工程名字
+npm install
+</pre>
+回到项目文件里，会发现目录结构里，多了一个node_modules文件夹（该内容就是之前安装的依赖）
+基于脚手架创建的项目默认结构如下：
+<pre>
+├── build                                       // webpack配置文件
+├── config                                      // 项目打包路径
+├── src                                         // 源码目录
+│   ├── assets                                  // 项目所需公共静态资源，如图片，css等
+│   │   ├── images                              // 项目公共图片资源
+│   │   └── scss                                // 项目公共样式资源
+│   │       └── common.scss                     // 公共样式配置文件
+│   ├── common                                  // 项目公共js资源
+│   │   └── ajax                                // ajax组件
+│   │       ├── ajax.js                         // 根据axios封装出来的Ajax
+│   │       └── ajax-config.js                  // axios的默认配置项
+│   ├── components                              // 组件
+│   │   ├── common                              // 公共组件
+│   │   │   └── shoplist.vue                    // msite和shop页面的餐馆列表公共组件
+│   │   ├── footer
+│   │   │   └── footer.vue                      // 底部公共组件
+│   │   └── header
+│   │       └── header.vue                      // 头部公共组件
+│   ├── page
+│   │   ├── error
+│   │   │   └── error.vue                       // 错误页面
+│   │   ├── login
+│   │   │   └── login.vue                       // 登录页
+│   │   └── home.vue                            // 项目页面总布局
+│   ├── router
+│   │   └── router.js                           // 路由配置
+│   ├── store                                   // vuex的状态管理
+│   │   ├── action.js                           // 配置actions
+│   │   ├── getters.js                          // 配置getters
+│   │   ├── modules                             // store模块
+│   │   ├── mutation-types.js                   // 定义常量muations名
+│   │   ├── mutations.js                        // 配置mutations
+│   │   └── store.js                            // 引用vuex，创建store
+│   ├── App.vue                                 // 页面入口文件
+│   └── main.js                                 // 程序入口文件，加载各种公共组件
+├── static                                      // 项目公共静态资源，如图片等
+│   └──images                                   // 项目公共图片资源
+├── index.html                                  // 入口html文件
 
+</pre>
+
+## 测试环境是否搭建成功
+<pre>
+npm run dev
+在浏览器里输入：localhost:8080
 </pre>
