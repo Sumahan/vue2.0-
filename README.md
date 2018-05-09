@@ -13,3 +13,9 @@
 cnpm install vue-cli -g
 输入vue -V,出现vue信息说明表示安装成功
 </pre>
+## 创建项目
+<pre>
+在硬盘上找一个文件夹放工程，在终端中进入该目录：cd 路径
+根据模板创建项目：vue init webpack-simple 工程名字<工程名字不能用中文>
+
+</pre>
