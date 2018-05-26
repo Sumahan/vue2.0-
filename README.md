@@ -24,6 +24,10 @@ cnpm install vue-cli -g
                         ? Use sass? (y/N)
 </pre>
 ![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/2.jpg)
+
+## 工程目录如图所示
+![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/3.png)
+
 ## 安装依赖
 <pre>
 cd 工程名字
