@@ -23,6 +23,7 @@ cnpm install vue-cli -g
                         ? License MIT
                         ? Use sass? (y/N)
 </pre>
+![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/2.png)
 ## 安装依赖
 <pre>
 cd 工程名字
