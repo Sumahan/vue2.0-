@@ -16,14 +16,13 @@ cnpm install vue-cli -g
 ## 创建项目
 <pre>
 在硬盘上找一个文件夹放工程，在终端中进入该目录：cd 路径
-根据模板创建项目：vue init webpack-simple 工程名字<工程名字不能用中文>
+根据模板创建项目：vue init webpack 工程名字<工程名字不能用中文>
 之后会有一系列的项目选填：? Project name vue1.0
                         ? Project description A Vue.js project
                         ? Author hanpanpan
                         ? License MIT
                         ? Use sass? (y/N)
 </pre>
-![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/2.jpg)
 
 ## 工程目录如图所示
 ![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/3.png)
