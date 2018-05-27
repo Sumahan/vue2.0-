@@ -25,7 +25,7 @@ cnpm install vue-cli -g
 </pre>
 
 ## 工程目录如图所示
-![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/3.png)
+![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/4.jpg)
 
 ## 安装依赖
 <pre>
