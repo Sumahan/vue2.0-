@@ -81,3 +81,4 @@ npm install
 npm run dev
 在浏览器里输入：localhost:8080
 </pre>
+![image](https://raw.githubusercontent.com/Sumahan/vue2.0-/master/screenshot/5.jpg)
